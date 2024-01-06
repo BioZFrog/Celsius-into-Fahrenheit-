@@ -1,0 +1,16 @@
+Console.WriteLine("-------->Celsius into Fahrenheit<--------");
+Console.WriteLine("       ------->BY BIOZFROG<-------\n");
+
+// Accessing the Temperature in Celsius
+Console.WriteLine("Enter the Celsius: ");
+double celsius = Convert.ToDouble(Console.ReadLine());
+
+// Initializing other Temperature units
+double fahrenheit = celsius * 9 / 5 + 32;
+double kelvin = celsius + 273.15;
+
+// Displaying the Results
+Console.WriteLine("\nYour Temperature is: ");
+Console.WriteLine($"\nCelsius: {celsius}");
+Console.WriteLine($"Fahrenheit: {fahrenheit}");
+Console.WriteLine($"Kelvin: {kelvin}");
